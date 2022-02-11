@@ -1,0 +1,16 @@
+{
+  "training":1,
+  "device": "cpu",
+  "mae_epochs": 500,
+  "batch_size": 64,
+  "ts_size": 24,
+  "mask_size": 3,
+  "num_masks": 2,
+  "z_dim": 18,
+  "hidden_dim": 12, 
+  "embed_dim": 6,
+  "num_embed": 32,
+  "num_layer": 3,
+  "log_interval": 100,
+  "save": 1
+}

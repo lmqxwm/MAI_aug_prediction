@@ -1,0 +1,18 @@
+{
+  "experiment_name": "Aug_Pred_traffic",
+  "aug_type": "None",
+  "max_epochs": 100,
+  "data_name": "traffic",
+  "batch_size": 32,
+  "aug_size": 24,
+  "max_encoder_length": 36,
+  "max_prediction_length": 24,
+  "gpu": 1,
+  "model_name": "deepar", 
+  "learning_rate": 0.001,
+  "cell_type": "LSTM",
+  "hidden_size": 10,
+  "rnn_layers": 2,
+  "log_interval": 2,
+  "log_val_interval": 2
+}
